@@ -9,4 +9,4 @@ function convertHTML(str) {
     return str.replace(/[<>&"']/g, (entity) => entities[entity])
 }
 
-console.log(convertHTML('Dolce & Gabana'));
+convertHTML('Dolce & Gabana');

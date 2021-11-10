@@ -16,4 +16,4 @@ function sumPrimes(num) {
     return primeNumber;
 
 }
-console.log(sumPrimes(10));
+sumPrimes(10);

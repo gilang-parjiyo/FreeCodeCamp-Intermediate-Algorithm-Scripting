@@ -22,4 +22,4 @@ function convertHTML(str) {
     return arrStr.join('');
 }
 
-console.log(convertHTML('Dolce & Gabana'));
+convertHTML('Dolce & Gabana');

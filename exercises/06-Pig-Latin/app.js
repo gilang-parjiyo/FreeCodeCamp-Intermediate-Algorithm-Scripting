@@ -5,6 +5,6 @@ function translatePigLatin(string = '') {
 }
 
 
-console.log(translatePigLatin("glove"));
+translatePigLatin("glove");
 
 // translatePigLatin("california") should return the string aliforniacay

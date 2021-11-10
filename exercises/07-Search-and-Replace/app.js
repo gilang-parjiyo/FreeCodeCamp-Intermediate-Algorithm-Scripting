@@ -6,4 +6,4 @@ function myReplace(sentence, before, after) {
 }
 
 
-console.log(myReplace("Let us go to the Store", "Store", "mall"));
+myReplace("Let us go to the Store", "Store", "mall");

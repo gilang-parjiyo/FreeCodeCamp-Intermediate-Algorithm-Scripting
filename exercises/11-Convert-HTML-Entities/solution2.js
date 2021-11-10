@@ -14,4 +14,4 @@ function convertHTML(str) {
         .join('');
 }
 
-console.log(convertHTML('Hamburgers < Pizza < Tacos'));
+convertHTML('Hamburgers < Pizza < Tacos');

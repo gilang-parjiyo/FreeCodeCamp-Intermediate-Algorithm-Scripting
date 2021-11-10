@@ -6,4 +6,4 @@ function steamrollArray(val, flatArr = []) {
     return flatArr;
 }
 
-console.log(steamrollArray([1, [2], [3, [[4]]]]));
+steamrollArray([1, [2], [3, [[4]]]]);

@@ -1,7 +1,7 @@
 const rewire = require('rewire');
 const testPath = {
-    // 1: './app.js',
-    // 2: './solution1.js',
+    1: './app.js',
+    2: './solution1.js',
     3: './solution2.js',
     // 4: './solution3.js'
 }
@@ -13,7 +13,7 @@ for (const path in testPath) {
     })
     test('Function uniteUnique should return array', () => {
         const uniteUnique = rewire(testPath[path]).__get__('uniteUnique');
-        expect(Array.isArray([1, 3, 2], [5, 2, 1, 4], [2, 1])).toBe(true);
+        expect(Array.isArray(uniteUnique([1, 3, 2], [5, 2, 1, 4], [2, 1]))).toBe(true);
     })
     test('Function uniteUnique must be return right value', () => {
         const uniteUnique = rewire(testPath[path]).__get__('uniteUnique');

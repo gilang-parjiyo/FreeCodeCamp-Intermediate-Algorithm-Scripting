@@ -16,4 +16,4 @@ function sumPrimes(num) {
     return arrPrimes.reduce((sum, prime, index) => prime ? sum + index : sum, 0);
 }
 
-console.log(sumPrimes(10));
+sumPrimes(10);

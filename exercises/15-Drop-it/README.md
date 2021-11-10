@@ -15,8 +15,6 @@
 
 ### 💡 Solution 2 **ES6 Loop Every**
 
-```
-
 
 
 

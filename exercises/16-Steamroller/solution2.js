@@ -9,4 +9,4 @@ function steamrollArray(arr) {
     }
     return newArr;
 }
-console.log(steamrollArray([1, [2], [3, [[4]]]]));
+steamrollArray([1, [2], [3, [[4]]]]);

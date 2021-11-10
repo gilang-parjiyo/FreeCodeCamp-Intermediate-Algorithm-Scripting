@@ -4,4 +4,4 @@ function spinalCase(string) {
     return str.replace(regex, '-').toLowerCase()
 }
 
-console.log(spinalCase("AllThe-small Things"));
+spinalCase("AllThe-small Things");

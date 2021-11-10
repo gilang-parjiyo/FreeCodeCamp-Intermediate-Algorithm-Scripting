@@ -6,4 +6,4 @@ function translatePigLatin(str = '', charpos = 0) {
             : translatePigLatin(str.slice(1) + str[0], charpos += 1)
 }
 
-console.log(console.log(translatePigLatin("california")));
+translatePigLatin("california");

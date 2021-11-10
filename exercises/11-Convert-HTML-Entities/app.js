@@ -30,4 +30,4 @@ function convertHTML(str) {
 
 }
 
-console.log(convertHTML("Dolce & Gabbana"));
+convertHTML("Dolce & Gabbana");
