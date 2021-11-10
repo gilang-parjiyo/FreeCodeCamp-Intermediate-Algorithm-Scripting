@@ -8,7 +8,7 @@ const testPath = {
 }
 
 for (const path in testPath) {
-    describe('Make A Person function', () =>){
+    describe('Make A Person function', () => {
         test(`${path}Function Person must be exist`, () => {
             const Person = rewire(testPath[path]).__get__('Person');
             expect(Person).not.toBe(undefined);
@@ -21,6 +21,6 @@ for (const path in testPath) {
             const Person = rewire(testPath[path]).__get__('Person');
             expect(Object.keys(bob)).toBe(6);
         })
-    }
+    })
 
 }
